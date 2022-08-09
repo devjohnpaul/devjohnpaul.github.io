@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 20px;
+    text-align: center;
+    background-color: darkcyan;
+    color: white;
+}
+
+.navbar {
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    height: 50px;
+    border-bottom: 2px solid darkcyan;
+    font-family: 'Poppins', sans-serif;
+
+}
+.navbar li {
+    display: inline;
+    padding: 5px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid darkcyan;
+    color: black;
+}
+
+.footer {
+    background-color: darkcyan;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer p {
+    color: white;
+}
+
+/* Warning */
+.warning {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.warning p {
+    color: red;
+    border: 3px solid red;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 20px;
+}
+
+/* index.html */
+.index-section {
+    margin: 10px;
+}
+.about-me {
+    background-color: darkcyan;
+    color: white;
+    width: 50%;
+    height: 20rem;
+    border-radius: 5px;
+    padding: 10px;
+}
