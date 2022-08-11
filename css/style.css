@@ -14,14 +14,15 @@ body {
     text-decoration: none;
 }
 .nav {
+    background-color: darkcyan;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Oleo Script Swash Caps', cursive;
     font-size: 20px;
     text-align: center;
-    background-color: darkcyan;
-    color: white;
+    padding: 4px;
 }
 
 .navbar {
@@ -32,6 +33,7 @@ body {
     font-size: 20px;
     height: 50px;
     font-family: 'Poppins', sans-serif;
+    border-bottom: 0.1px solid darkcyan;
     box-shadow: 0 2px 8px 0 rgb(22, 14, 14);
 
 }
@@ -87,7 +89,7 @@ body {
 }
 .warning p {
     color: red;
-    border: 3px solid red;
+    border: 2px solid red;
     border-radius: 5px;
     padding: 8px;
     font-size: 20px;
